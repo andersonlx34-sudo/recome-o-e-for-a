@@ -1,0 +1,653 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de bem-estar com treinos, alimentação econômica e relaxamento.">
+
+    <title>Recomeço & Força | Fitness e Bem-estar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="aseets/css/ajudar.css">
+</head>
+
+<body>
+
+    <div class="topbar text-center">
+        <i class="fa-solid fa-heart me-2"></i>
+        Sua saúde, seu ritmo, suas possibilidades.
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#inicio">
+                <span class="brand-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </span>
+                Recomeço <span>& Força</span>
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+                    <li class="nav-item"><a class="nav-link" href="#objetivos">Objetivos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#planejador">Meu plano</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#alimentacao">Alimentação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#suplementos">Whey</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#relaxamento">Relaxamento</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <header class="hero" id="inicio">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-7 hero-content">
+                    <span class="eyebrow">
+                        <i class="fa-solid fa-sparkles me-2"></i>
+                        BEM-ESTAR SEM COMPLICAÇÃO
+                    </span>
+
+                    <h1>
+                        Evolua no seu ritmo.
+                        <span>Cuide de você.</span>
+                    </h1>
+
+                    <p>
+                        Descubra atividades, ideias de refeições e hábitos
+                        que combinam com seus objetivos, sua rotina e seu orçamento.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#planejador" class="btn btn-main">
+                            Montar meu plano
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
+
+                        <a href="#relaxamento" class="btn btn-glass">
+                            <i class="fa-solid fa-headphones me-2"></i>
+                            Relaxar
+                        </a>
+                    </div>
+
+                    <div class="hero-points">
+                        <span><i class="fa-solid fa-check"></i> Opções econômicas</span>
+                        <span><i class="fa-solid fa-check"></i> Rotina personalizada</span>
+                        <span><i class="fa-solid fa-check"></i> Bem-estar em primeiro lugar</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="hero-photo">
+                        <img
+                            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=85"
+                            alt="Academia com equipamentos de treinamento"
+                            fetchpriority="high">
+
+                        <div class="photo-badge">
+                            <div class="badge-icon">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+                            <div>
+                                <strong>Progresso sustentável</strong>
+                                <small>Pequenos hábitos, no seu tempo</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- OBJETIVOS -->
+
+    <section class="section" id="objetivos">
+        <div class="container">
+
+            <div class="section-heading text-center reveal">
+                <span class="section-tag">ESCOLHA SEU CAMINHO</span>
+                <h2>Qual é o seu <span>objetivo?</span></h2>
+                <p>
+                    Escolha o que você quer priorizar. Você pode mudar de objetivo
+                    quando sua rotina ou suas preferências mudarem.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3 reveal">
+                    <button class="goal-card w-100"
+                        type="button" data-goal="musculo"
+                        aria-pressed="false">
+                        <img
+                            src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80"
+                            alt="Pessoa treinando força com pesos"
+                            loading="lazy">
+                        <span class="goal-icon"><i class="fa-solid fa-dumbbell"></i></span>
+                        <span class="goal-title">Ganhar força e músculos</span>
+                        <span class="goal-description">
+                            Treinamento de força, recuperação e refeições variadas.
+                        </span>
+                        <span class="goal-select">Selecionar objetivo <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-lg-3 reveal">
+                    <button class="goal-card w-100"
+                        type="button" data-goal="saude"
+                        aria-pressed="false">
+                        <img
+                            src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=700&q=80"
+                            alt="Pessoa praticando corrida ao ar livre"
+                            loading="lazy">
+                        <span class="goal-icon"><i class="fa-solid fa-heart-pulse"></i></span>
+                        <span class="goal-title">Condicionamento</span>
+                        <span class="goal-description">
+                            Mais disposição, resistência e movimento no dia a dia.
+                        </span>
+                        <span class="goal-select">Selecionar objetivo <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-lg-3 reveal">
+                    <button class="goal-card w-100"
+                        type="button" data-goal="emagrecer"
+                        aria-pressed="false">
+                        <img
+                            src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80"
+                            alt="Pessoa praticando exercício em um tapete"
+                            loading="lazy">
+                        <span class="goal-icon"><i class="fa-solid fa-person-walking"></i></span>
+                        <span class="goal-title">Saúde e composição corporal</span>
+                        <span class="goal-description">
+                            Construir hábitos ativos e cuidar da saúde sem dietas extremas.
+                        </span>
+                        <span class="goal-select">Selecionar objetivo <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-lg-3 reveal">
+                    <button class="goal-card w-100"
+                        type="button" data-goal="praia"
+                        aria-pressed="false">
+                        <img
+                            src="https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=700&q=80"
+                            alt="Piscina ao ar livre para atividades físicas"
+                            loading="lazy">
+                        <span class="goal-icon"><i class="fa-solid fa-person-swimming"></i></span>
+                        <span class="goal-title">Estilo de vida ativo</span>
+                        <span class="goal-description">
+                            Combinar força, mobilidade, cardio e atividades ao ar livre.
+                        </span>
+                        <span class="goal-select">Selecionar objetivo <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PLANEJADOR FINANCEIRO -->
+
+    <section class="section section-soft" id="planejador">
+        <div class="container">
+
+            <div class="section-heading text-center reveal">
+                <span class="section-tag">PLANEJAMENTO INTELIGENTE</span>
+                <h2>Um plano que cabe <span>no seu bolso</span></h2>
+                <p>
+                    Informe seus limites de gasto. Não precisa informar seu salário
+                    nem compartilhar dados pessoais.
+                </p>
+            </div>
+
+            <div class="row g-4 align-items-stretch">
+
+                <div class="col-lg-6">
+                    <form class="planner-form reveal" id="plannerForm">
+
+                        <label for="goalSelect" class="form-label">Seu objetivo</label>
+                        <select id="goalSelect" class="form-select" required>
+                            <option value="">Escolha um objetivo</option>
+                            <option value="musculo">Ganhar força e músculos</option>
+                            <option value="saude">Melhorar o condicionamento</option>
+                            <option value="emagrecer">Saúde e composição corporal</option>
+                            <option value="praia">Estilo de vida ativo</option>
+                        </select>
+
+                        <label for="experience" class="form-label mt-4">
+                            Experiência com exercícios
+                        </label>
+                        <select id="experience" class="form-select" required>
+                            <option value="iniciante">Iniciante</option>
+                            <option value="intermediario">Já pratico há algum tempo</option>
+                        </select>
+
+                        <label for="foodBudget" class="form-label mt-4">
+                            Quanto você pode gastar por mês com alimentação extra?
+                        </label>
+                        <div class="input-group">
+                            <span class="input-group-text">R$</span>
+                            <input id="foodBudget" class="form-control"
+                                type="number" min="0" max="100000"
+                                step="10" value="150" required>
+                        </div>
+                        <small class="helper-text">
+                            Considere o dinheiro disponível para complementar as refeições
+                            que já existem em casa, não necessariamente toda a compra do mês.
+                        </small>
+
+                        <label for="gymBudget" class="form-label mt-4">
+                            Orçamento mensal para atividade física
+                        </label>
+                        <div class="input-group">
+                            <span class="input-group-text">R$</span>
+                            <input id="gymBudget" class="form-control"
+                                type="number" min="0" max="100000"
+                                step="10" value="0" required>
+                        </div>
+
+                        <label for="place" class="form-label mt-4">
+                            Onde pretende treinar?
+                        </label>
+                        <select id="place" class="form-select">
+                            <option value="casa">Em casa, sem mensalidade</option>
+                            <option value="academia">Academia</option>
+                            <option value="ar livre">Ao ar livre</option>
+                        </select>
+
+                        <label for="foodStyle" class="form-label mt-4">
+                            Preferência alimentar
+                        </label>
+                        <select id="foodStyle" class="form-select">
+                            <option value="normal">Alimentação variada</option>
+                            <option value="vegetariana">Vegetariana</option>
+                            <option value="semleite">Prefiro opções sem leite</option>
+                        </select>
+
+                        <button class="btn btn-main w-100 mt-4" type="submit">
+                            <i class="fa-solid fa-wand-magic-sparkles me-2"></i>
+                            Gerar meu plano
+                        </button>
+
+                        <p class="helper-text mt-3 mb-0">
+                            Os valores são limites definidos por você, não uma estimativa
+                            automática do custo de toda a alimentação da sua família.
+                        </p>
+
+                    </form>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="planner-side reveal">
+                        <img
+                            src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1100&q=85"
+                            alt="Refeição variada com vegetais, grãos e alimentos frescos"
+                            loading="lazy">
+
+                        <div class="planner-side-overlay">
+                            <span class="section-tag">SEM COMPLICAÇÃO</span>
+                            <h3>Comida de verdade. Movimento possível.</h3>
+                            <p>
+                                Bons hábitos não precisam começar com academia cara
+                                ou suplementos. Planeje com o que você já tem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="planResults" class="d-none mt-5" aria-live="polite">
+                <div class="result-top">
+                    <span class="section-tag">SEU RESULTADO</span>
+                    <h3 id="resultTitle">Seu plano personalizado</h3>
+                    <p id="resultIntro"></p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <article class="result-card h-100">
+                            <h4><i class="fa-solid fa-dumbbell me-2"></i>Plano de atividades</h4>
+                            <div id="trainingResult"></div>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <article class="result-card h-100">
+                            <h4><i class="fa-solid fa-utensils me-2"></i>Ideias de refeições</h4>
+                            <div id="foodResult"></div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="budget-card mt-4">
+                    <h4><i class="fa-solid fa-wallet me-2"></i>Resumo do orçamento</h4>
+                    <div id="budgetResult"></div>
+                </div>
+
+                <p class="disclaimer">
+                    Este é um guia educativo, não uma prescrição nutricional.
+                    O orçamento não garante preços locais. Adapte as opções à
+                    disponibilidade, às alergias e às necessidades individuais.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ALIMENTOS -->
+
+    <section class="section" id="alimentacao">
+        <div class="container">
+
+            <div class="section-heading text-center reveal">
+                <span class="section-tag">NUTRIÇÃO SEM DESPERDÍCIO</span>
+                <h2>Alimentos que ajudam <span>na sua rotina</span></h2>
+                <p>
+                    Priorize opções nutritivas, acessíveis e que você realmente goste.
+                    O custo por refeição importa mais que comprar produtos da moda.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-sm-6 col-lg-3 reveal">
+                    <article class="food-card">
+                        <img src="https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=650&q=80"
+                            alt="Arroz e feijão servidos em uma refeição" loading="lazy">
+                        <div class="food-card-body">
+                            <span class="food-tag">BASE DA REFEIÇÃO</span>
+                            <h3>Arroz e feijão</h3>
+                            <p>Uma combinação versátil para refeições do dia a dia.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 reveal">
+                    <article class="food-card">
+                        <img src="https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&w=650&q=80"
+                            alt="Ovos como fonte alimentar de proteína" loading="lazy">
+                        <div class="food-card-body">
+                            <span class="food-tag">PROTEÍNA</span>
+                            <h3>Ovos</h3>
+                            <p>Uma opção prática, com proteína e diversos nutrientes.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 reveal">
+                    <article class="food-card">
+                        <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=650&q=80"
+                            alt="Aveia e cereais para refeições" loading="lazy">
+                        <div class="food-card-body">
+                            <span class="food-tag">ENERGIA</span>
+                            <h3>Aveia e banana</h3>
+                            <p>Podem complementar café da manhã, lanches e vitaminas.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 reveal">
+                    <article class="food-card">
+                        <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=650&q=80"
+                            alt="Refeição com frango e vegetais" loading="lazy">
+                        <div class="food-card-body">
+                            <span class="food-tag">VARIEDADE</span>
+                            <h3>Frango ou sardinha</h3>
+                            <p>Compare preços por quilo e alterne com feijão, ovos e outras fontes de proteína.</p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+            <div class="note-panel mt-5">
+                <i class="fa-solid fa-circle-info"></i>
+                <div>
+                    <strong>Economizar sem perder variedade</strong>
+                    <p>
+                        Compare preços por quilo, aproveite alimentos da estação,
+                        use feijão e outras leguminosas e escolha a proteína que
+                        estiver acessível. O Guia Alimentar brasileiro prioriza
+                        alimentos in natura ou minimamente processados.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WHEY -->
+
+    <section class="section section-dark" id="suplementos">
+        <div class="container">
+
+            <div class="section-heading text-center reveal">
+                <span class="section-tag">GUIA DE COMPRAS</span>
+                <h2>Entenda o <span>whey protein</span></h2>
+                <p>
+                    Compare informações, leia o rótulo e veja se o produto faz sentido
+                    para seu orçamento. Você pode evoluir sem comprar suplementos.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4 reveal">
+                    <article class="whey-card">
+                        <div class="whey-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                        <h3>Compare o rótulo</h3>
+                        <p>Veja proteína por porção, ingredientes, alergênicos, validade e instruções da embalagem.</p>
+                        <a href="https://www.gov.br/anvisa/pt-br/assuntos/alimentos/rotulagem"
+                           target="_blank" rel="noopener noreferrer">
+                            Guia de rotulagem <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4 reveal">
+                    <article class="whey-card">
+                        <div class="whey-icon"><i class="fa-solid fa-wallet"></i></div>
+                        <h3>Calcule o custo</h3>
+                        <p>Divida o preço da embalagem pelo número de porções indicadas no rótulo para comparar o custo por porção.</p>
+                        <div class="cost-calculator">
+                            <label for="wheyPrice">Preço da embalagem (R$)</label>
+                            <input id="wheyPrice" type="number" min="0" step="0.01" value="150">
+                            <label for="wheyServings">Número de porções</label>
+                            <input id="wheyServings" type="number" min="1" step="1" value="30">
+                            <button id="calculateWhey" class="btn btn-main w-100 mt-3" type="button">
+                                Calcular custo
+                            </button>
+                            <p id="wheyCost" class="mt-3 mb-0" aria-live="polite"></p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4 reveal">
+                    <article class="whey-card">
+                        <div class="whey-icon"><i class="fa-solid fa-shield-heart"></i></div>
+                        <h3>Marcas para pesquisar</h3>
+                        <p>
+                            Growth Supplements, DUX, Max Titanium, Integralmédica
+                            e Probiótica aparecem em comparativos de mercado.
+                            Isso não significa que todo produto ou lote seja superior.
+                        </p>
+                        <a href="https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares"
+                           target="_blank" rel="noopener noreferrer">
+                            Informações da Anvisa <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                        </a>
+                    </article>
+                </div>
+
+            </div>
+
+            <div class="note-panel note-dark mt-4">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <div>
+                    <strong>Suplementação exige atenção</strong>
+                    <p>
+                        Whey é uma proteína derivada do leite e pode não ser adequado
+                        para todas as pessoas. Se você é menor de idade, converse com
+                        um responsável e um nutricionista antes de usar suplementos.
+                        Não substitua refeições nem comprometa o orçamento básico
+                        da casa para comprá-los.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MÚSICA E RELAXAMENTO -->
+
+    <section class="section section-soft" id="relaxamento">
+        <div class="container">
+
+            <div class="section-heading text-center reveal">
+                <span class="section-tag">MOMENTO DE PAUSA</span>
+                <h2>Desacelere um pouco <span>e respire</span></h2>
+                <p>
+                    Escolha uma música tranquila, diminua o ritmo e faça uma pausa
+                    quando sentir necessidade.
+                </p>
+            </div>
+
+            <div class="row g-4 align-items-stretch">
+
+                <div class="col-lg-6 reveal">
+                    <div class="music-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=1100&q=85"
+                            alt="Paisagem tranquila ao entardecer"
+                            loading="lazy">
+
+                        <div class="music-content">
+                            <span class="section-tag">PLAYLIST DE RELAXAMENTO</span>
+                            <h3>Seu espaço de tranquilidade</h3>
+                            <p>
+                                Coloque sua faixa instrumental preferida e ouça
+                                no volume que for confortável.
+                            </p>
+
+                            <audio id="relaxAudio" controls preload="none">
+                                <source src="assets/audio/relaxamento.mp3" type="audio/mpeg">
+                                Seu navegador não suporta áudio HTML5.
+                            </audio>
+
+                            <p class="audio-note" id="audioStatus" aria-live="polite">
+                                Adicione uma faixa de áudio à pasta indicada para ativar o player.
+                            </p>
+
+                            <a href="https://pixabay.com/pt/music/search/relaxamento/"
+                                target="_blank" rel="noopener noreferrer"
+                                class="audio-link">
+                                Encontrar músicas para relaxar
+                                <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 reveal">
+                    <div class="breath-card">
+                        <div class="breath-top">
+                            <span class="section-tag">RESPIRAÇÃO GUIADA</span>
+                            <i class="fa-solid fa-wind"></i>
+                        </div>
+
+                        <div class="breath-circle" id="breathCircle">
+                            <div class="breath-circle-inner">
+                                <i class="fa-solid fa-leaf"></i>
+                                <span id="breathPhase">Calma</span>
+                            </div>
+                        </div>
+
+                        <h3 id="breathStatus" class="text-center">
+                            Faça uma pausa
+                        </h3>
+
+                        <p id="breathInstruction" class="text-center">
+                            Respire naturalmente. Quando estiver pronto, comece.
+                        </p>
+
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-main flex-fill" id="startBreathing" type="button">
+                                <i class="fa-solid fa-play me-2"></i>Começar
+                            </button>
+
+                            <button class="btn btn-outline-secondary flex-fill"
+                                id="stopBreathing" type="button" disabled>
+                                Parar
+                            </button>
+                        </div>
+
+                        <small class="helper-text d-block mt-3">
+                            Não force a respiração nem prenda o ar. Pare se sentir desconforto.
+                        </small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+
+    <footer class="footer">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">
+                <span class="brand-icon"><i class="fa-solid fa-leaf"></i></span>
+                Recomeço <span>& Força</span>
+            </a>
+
+            <p>Informação acessível para uma rotina mais saudável.</p>
+
+            <div class="footer-line"></div>
+
+            <small>
+                Projeto educativo. Não substitui acompanhamento de nutricionista,
+                médico ou profissional de educação física.
+            </small>
+
+            <small class="mt-2">
+                © <span id="currentYear"></span> Recomeço & Força.
+            </small>
+        </div>
+    </footer>
+
+    <button class="back-top" id="backToTop"
+        aria-label="Voltar ao topo" type="button">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+    <script src="aseets/javascript/script.js"></script>
+
+</body>
+</html>
